@@ -16,6 +16,7 @@ namespace CarLotSimulator
 
             //Now that the Car class is created we can instanciate 3 new cars
             Car car1 = new Car();
+            Console.WriteLine(CarLot.numberOfCars)
             Car car2 = new Car();
             Car car3 = new Car();
             //Set the properties for each of the cars
